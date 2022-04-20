@@ -39,5 +39,4 @@ switch (type){
     case 3:
         print(`Please enter a string:${variable} `);
                print(`${variable}*`);break;
-}
-
+} 
