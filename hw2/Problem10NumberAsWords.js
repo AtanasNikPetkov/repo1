@@ -6,13 +6,9 @@ let print = this.print || console.log;
 let gets = this.gets || ((arr, index) => () => arr[index++])(input, 0)
 
 
-
-
-
 let n=Number(gets());
 let zeroToNineteen = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(' ');
 let wholeDecimals = "twenty thirty forty fifty sixty seventy eighty ninety".split(" ");
-
 
 let remainder=0;
 let remainderdecimals=0;
